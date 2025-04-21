@@ -12,6 +12,7 @@ main {
 .img-cat{
   width: 80%;
 }
+
 .fact{
   width: 80%;
   padding-top: 1rem;
@@ -67,7 +68,7 @@ h3 {
 }
 
 .footer{
-  position: absolute;
+  position: static;
   bottom: 0;
   display: flex;
   justify-content: space-between;
@@ -75,4 +76,19 @@ h3 {
   width: 100%;
   padding: 20px 8rem;
   background-color: #c8c8c8;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+  .img-cat {
+    width: 100%;
+  }
+  .fact {
+    width: 100%;
+  }
+  .footer{
+    padding: 20px;
+
+  }
 }
