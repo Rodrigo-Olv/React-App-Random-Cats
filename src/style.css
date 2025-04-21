@@ -1,9 +1,10 @@
+
 main {
   display: flex;
   flex-direction: column;
   place-items: center;
-  margin: 0 auto;
   font-family: system-ui;
+  margin-bottom: 4rem;
 }
 .dos-columnas {
   display: flex;
@@ -23,6 +24,7 @@ h1 {
 }
 header{
   background-color: #c8c8c8;
+  margin-bottom: 4rem;
 }
 h2 {
   font-size: 2rem;
@@ -66,16 +68,12 @@ h3 {
   border-radius: 10px;
   padding: 24px 10px 10px 24px;
 }
-
-.footer{
-  margin-top: 2rem;
-  bottom: 0;
+body{
+  min-height: 100vh;
+  margin: 0;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 20px 8rem;
-  background-color: #c8c8c8;
+  flex-direction: column;
+  position: relative;
 }
 
 /* media queries */
@@ -86,13 +84,6 @@ h3 {
   }
   .fact {
     width: 100%;
-  }
-  .footer{
-    position: static;
-    padding: 20px;
-    margin-top: 24px;
-    flex-direction: column;
-    align-items: center;
   }
   .my-button {
     margin-bottom: 24px;

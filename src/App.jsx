@@ -111,7 +111,6 @@ export function App () {
           />
         </div>
       </main>
-      <Footer/>
       </>
     );
 }
