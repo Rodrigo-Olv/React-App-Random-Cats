@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./Style.css";
+import "./style.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Header } from "./components/Header";
 import { RandomCat} from "./components/RandomCat";
