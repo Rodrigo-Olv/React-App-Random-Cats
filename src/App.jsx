@@ -95,7 +95,7 @@ export function App () {
       <>
       <Header/>
       <main className="container d-flex flex-column align-items-center justify-content-center">
-        <div className="d-flex flex-row container-fluid">
+        <div className="d-lg-flex flex-row container-fluid">
           <RandomCat imgUrl={imgUrl} fact={fact} getFact={getFact}/>
           <CustomCat             
             saveText={saveText}

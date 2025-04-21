@@ -13,7 +13,7 @@ export function CustomCat({
     customColors,
     showPicker }) {
     return (
-        <section className="col-6">
+        <section className="col-lg-6">
         <div >
           <h2 className="mb-4">Personalized phrase</h2>
           <div className="custom-text">          

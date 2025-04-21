@@ -1,6 +1,6 @@
 export function RandomCat({ imgUrl, fact, getFact }) {
   return (
-    <section className="col-6 d-flex flex-column">
+    <section className="col-lg-6 d-flex flex-column">
       <div className="img-cat">
         {imgUrl && (
           <img
