@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Header } from "./components/Header";
 import { RandomCat} from "./components/RandomCat";
 import { CustomCat } from "./components/CustomCat";
-import { Footer } from "./components/Footer";
 
 const URL_FACTS_CATS = 'https://catfact.ninja/fact'
 const URL_IMG_INIT = 'https://cataas.com/cat/says/'
