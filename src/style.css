@@ -69,6 +69,7 @@ h3 {
 
 .footer{
   position: absolute;
+  margin-top: 2rem;
   bottom: 0;
   display: flex;
   justify-content: space-between;
