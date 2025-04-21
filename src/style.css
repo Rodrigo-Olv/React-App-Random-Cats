@@ -1,0 +1,78 @@
+main {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  margin: 0 auto;
+  font-family: system-ui;
+}
+.dos-columnas {
+  display: flex;
+  flex-direction: row;
+}
+.img-cat{
+  width: 80%;
+}
+.fact{
+  width: 80%;
+  padding-top: 1rem;
+}
+h1 {
+  font-size: 2.5rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+  background-color: #c8c8c8;
+}
+h2 {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.my-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  max-width: 300px;
+}
+.my-button:hover {
+  background-color: #45a049;
+}
+.my-button:active {
+  background-color: #3e8e41;
+}
+
+.custom-text{
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+  max-width: 300px;;
+}
+
+.circle-picker {
+  margin-top: 1rem;
+  background-color:#c8c8c8;
+  border-radius: 10px;
+  padding: 24px 10px 10px 24px;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 8rem;
+  background-color: #c8c8c8;
+}
