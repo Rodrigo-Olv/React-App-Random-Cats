@@ -68,7 +68,7 @@ h3 {
 }
 
 .footer{
-  position: static;
+  position: absolute;
   bottom: 0;
   display: flex;
   justify-content: space-between;
@@ -88,6 +88,7 @@ h3 {
     width: 100%;
   }
   .footer{
+    position: static;
     padding: 20px;
     margin-top: 24px;
     flex-direction: column;
